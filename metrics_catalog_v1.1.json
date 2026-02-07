@@ -1,0 +1,99 @@
+{
+  "glass_transition_temperature": {
+    "label": { "en": "Tg", "fr": "Tg" },
+    "default_unit": "°C",
+    "display_order": ["method", "phase", "temperature_C"]
+  },
+  "thermal_decomposition_temperature": {
+    "label": { "en": "Td (weight loss)", "fr": "Td (perte de masse)" },
+    "default_unit": "°C",
+    "display_order": ["weight_loss_percent", "method"]
+  },
+  "z_axis_cte": {
+    "label": { "en": "CTE (Z axis)", "fr": "CTE axe Z" },
+    "default_unit": "ppm/°C",
+    "display_order": ["phase"]
+  },
+  "xy_axis_cte": {
+    "label": { "en": "CTE (X/Y)", "fr": "CTE axe X/Y" },
+    "default_unit": "ppm/°C",
+    "display_order": ["phase","axis"]
+  },
+  "thermal_conductivity": {
+    "label": { "en": "Thermal conductivity", "fr": "Conductivité thermique" },
+    "default_unit": "W/m·K"
+  },
+  "solder_float_resistance": {
+    "label": { "en": "Solder float", "fr": "Solder float" },
+    "default_unit": ""
+  },
+  "thermal_stress": {
+    "label": { "en": "Thermal stress", "fr": "Contrainte thermique" },
+    "default_unit": ""
+  },
+  "dielectric_constant": {
+    "label": { "en": "Dk", "fr": "Dk" },
+    "default_unit": "",
+    "display_order": ["frequency_Hz"]
+  },
+  "dissipation_factor": {
+    "label": { "en": "Df", "fr": "Df" },
+    "default_unit": "",
+    "display_order": ["frequency_Hz"]
+  },
+  "electric_strength": {
+    "label": { "en": "Electric strength", "fr": "Résistance diélectrique" },
+    "default_unit": "kV/mm"
+  },
+  "dielectric_breakdown": {
+    "label": { "en": "Dielectric breakdown", "fr": "Rigidité diélectrique (breakdown)" },
+    "default_unit": "kV"
+  },
+  "volume_resistivity": {
+    "label": { "en": "Volume resistivity", "fr": "Résistivité volumique" },
+    "default_unit": "Ω·cm",
+    "display_order": ["conditioning"]
+  },
+  "surface_resistivity": {
+    "label": { "en": "Surface resistivity", "fr": "Résistivité de surface" },
+    "default_unit": "Ω",
+    "display_order": ["conditioning"]
+  },
+  "comparative_tracking_index": {
+    "label": { "en": "CTI", "fr": "CTI" },
+    "default_unit": ""
+  },
+  "moisture_absorption": {
+    "label": { "en": "Moisture absorption", "fr": "Absorption d’humidité" },
+    "default_unit": "%"
+  },
+  "flammability_rating": {
+    "label": { "en": "Flammability", "fr": "Classement inflammabilité" },
+    "default_unit": ""
+  },
+  "dimensional_stability": {
+    "label": { "en": "Dimensional stability", "fr": "Stabilité dimensionnelle" },
+    "default_unit": "%"
+  },
+  "peel_strength": {
+    "label": { "en": "Peel strength", "fr": "Peel strength" },
+    "default_unit": "N/mm"
+  },
+  "flexural_endurance": {
+    "label": { "en": "Flexural endurance (MIT)", "fr": "Endurance flexion (MIT)" },
+    "default_unit": "cycles",
+    "display_order": ["bend_radius_mm","load_kg"]
+  },
+  "tensile_strength": {
+    "label": { "en": "Tensile strength", "fr": "Tensile strength" },
+    "default_unit": "MPa"
+  },
+  "tensile_modulus": {
+    "label": { "en": "Tensile modulus", "fr": "Module en traction" },
+    "default_unit": "GPa"
+  },
+  "elongation": {
+    "label": { "en": "Elongation", "fr": "Allongement" },
+    "default_unit": "%"
+  }
+}
